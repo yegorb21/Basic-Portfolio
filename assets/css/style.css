@@ -1,0 +1,102 @@
+.wholePage {
+    width: 960px;
+    box-align: center;
+    margin: 0 auto;
+}
+
+.backgroundImage {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header {
+    background-color: #ffffff;
+    position: relative;
+    height: 70px;
+    border-bottom: #cccccc thick solid;
+}
+
+.titleBox {
+    height: 70px;
+    position: absolute;
+    left: 0;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    width: 170px;
+}
+
+.about {
+    position: absolute;
+    right: 130px;
+    height: 20px;
+    line-height: 20px;
+    width: 70px;
+    top: 25px;
+    text-align: center;
+}
+
+.port {
+    position: absolute;
+    right: 65px;
+    height: 20px;
+    line-height: 20px;
+    width: 70px;
+    border-left: solid black;
+    top: 25px;
+    text-align: center;
+
+}
+
+.contact {
+    position: absolute;
+    right: 0px;
+    height: 20px;
+    line-height: 20px;
+    width: 65px;
+    border-left: solid black;
+    top: 25px;
+    text-align: center;
+}
+
+.mainPage {
+    position: relative;
+    background-color: #ffffff;
+    top: 35px;
+    height: 450px;
+    border: #dddddd thick solid;
+}
+
+.aboutMe {
+    position: absolute;
+    left: 0;
+    height: 70px;
+    line-height: 70px;
+    width: 140px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #4aaaa5;
+}
+
+hr {
+    position: absolute;
+    width: 900px;
+    left: 30px;
+    top: 50px;
+}
+
+img {
+    margin: 0 30px 0 0;
+    /* position: absolute;
+    top: 0; */
+    float: left;
+}
+
+.bottomSection {
+    position: absolute;
+    margin: 30px 30px 30px 30px;
+    height: 320px;
+    background-color: #ffffff;
+    bottom: 15px;
+}
