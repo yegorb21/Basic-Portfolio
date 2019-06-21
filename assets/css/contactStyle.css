@@ -97,17 +97,53 @@ html body {
     border: #dddddd thick solid;
 }
 
+
 .aboutMe {
     position: absolute;
     left: 10px;
     height: 70px;
     line-height: 70px;
-    width: 140px;
+    width: 120px;
     background-color: #ffffff;
     text-align: center;
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 20px;
+}
+
+.bottomSection {
+    position: absolute;
+    margin: 30px 30px 30px 30px;
+    height: 320px;
+    bottom: 15px;
+    width: 900px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 15px;
+}
+
+input {
+    width: 895px;
+    top: 50px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+
+.submitButton {
+    width: 80px;
+    background-color: #4aaaa5;
+    border: 0;
+    color: white;
+    height: 30px;
+    margin-top: 0;
+}
+
+.nameEmail {
+    height: 20px;
+}
+
+.messageTextBox {
+    height: 150px;
 }
 
 hr {
@@ -124,18 +160,12 @@ img {
     float: left;
 }
 
-.bottomSection {
-    position: absolute;
-    margin: 30px 30px 30px 30px;
-    height: 320px;
-    background-color: #ffffff;
-    bottom: 15px;
-}
-
 p {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+
 
 .footer {
     background-color: red;
