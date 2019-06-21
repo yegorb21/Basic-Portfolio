@@ -1,0 +1,216 @@
+html body {
+    height: 100%;
+    margin: 0;
+}
+
+.headerBackground {
+    height: 70px;
+    background-color: #ffffff;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    border-bottom: #cccccc thick solid;
+    top: 0;
+    margin: 0;
+}
+
+.wholePage {
+    width: 960px;
+    box-align: center;
+    margin: 0 auto;
+    min-height: 100%;
+    margin-bottom: -50px;
+    flex: 1 0 auto;
+    z-index: 2;
+}
+
+.backgroundImage {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header {
+    background-color: #ffffff;
+    position: relative;
+    height: 70px;
+    border-bottom: #cccccc thick solid;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    z-index: 2;
+}
+
+.titleBox {
+    height: 70px;
+    position: absolute;
+    left: 0;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    width: 220px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+}
+
+.about {
+    position: absolute;
+    right: 130px;
+    height: 20px;
+    line-height: 20px;
+    width: 70px;
+    top: 25px;
+    text-align: center;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.port {
+    position: absolute;
+    right: 65px;
+    height: 20px;
+    line-height: 20px;
+    width: 70px;
+    border-left: solid 1px lightgrey;
+    top: 25px;
+    text-align: center;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.contact {
+    position: absolute;
+    right: 0px;
+    height: 20px;
+    line-height: 20px;
+    width: 65px;
+    border-left: solid 1px lightgrey;
+    top: 25px;
+    text-align: center;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.mainPage {
+    position: relative;
+    background-color: #ffffff;
+    top: 35px;
+    height: 650px;
+    border: #dddddd thick solid;
+}
+
+.aboutMe {
+    position: absolute;
+    left: 10px;
+    height: 70px;
+    line-height: 70px;
+    width: 140px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+}
+
+hr {
+    position: absolute;
+    width: 900px;
+    left: 30px;
+    top: 50px;
+}
+
+.backgroundImage {
+    margin: 0 30px 0 0;
+    /* position: absolute;
+    top: 0; */
+    float: left;
+}
+
+.one {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+
+.two {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+
+.three {
+    position: absolute;
+    top: 420px;
+    left: 30px;
+}
+
+.four {
+    position: absolute;
+    top: 80px;
+    left: 300px;
+}
+
+.five {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+}
+
+.Cap {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: #4aaaa5;
+    width: 250px;
+    color: white;
+}
+
+.oneCap {
+    position: absolute;
+    top: 160px;
+    left: 30px;
+}
+
+.twoCap {
+    position: absolute;
+    top: 330px;
+    left: 30px;
+}
+
+.threeCap {
+    position: absolute;
+    top: 500px;
+    left: 30px;
+}
+
+.fourCap {
+    position: absolute;
+    top: 160px;
+    left: 300px;
+}
+
+.fiveCap {
+    position: absolute;
+    top: 330px;
+    left: 300px;
+}
+
+.footer {
+    background-color: red;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #666666;
+    border-top: #4aaaa5 thick solid;
+    color: lightgray;
+    font-size: 12px;
+}
+
+a {
+    color: #777777;
+    text-decoration: none; 
+    background-color: none;
+}
